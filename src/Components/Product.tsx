@@ -1,6 +1,6 @@
 // Product.tsx
 import type { IProduct } from "../interfaces";
-import priceImg from "../../public/price.svg";
+import priceImg from "../assets/price.svg";
 import { motion } from "framer-motion";
 
 const productVariants = {
