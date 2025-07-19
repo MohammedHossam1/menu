@@ -1,7 +1,8 @@
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import humburger from "../assets/burger.svg";
-import line from "../assets/line.svg";
+import line from "../assets/Line.svg";
+// d
 import { categoriesData } from "../data";
 import { breakpoints } from "../constant";
 
