@@ -27,6 +27,6 @@ body {
 
   @variant 2xl {
     padding-inline: 6rem;
-max-width: var(--breakpoint-3xl);s
+    max-width: var(--breakpoint-3xl);
   }
 }
