@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Cairo', 'sans-serif';
+  background: #F3F2F5;
+}
+
+/* genral config */
+@theme {
+  --color-main: #CB9700;
+  --color-darkMain: #000;
+  --breakpoint-3xl: 120rem;
+}
+
+@utility custom-container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @variant lg {
+    padding-inline: 2rem;
+  }
+
+  @variant xl {
+    padding-inline: 3rem;
+  }
+
+  @variant 2xl {
+    padding-inline: 6rem;
+max-width: var(--breakpoint-3xl);s
+  }
+}
