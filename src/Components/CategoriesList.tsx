@@ -21,7 +21,7 @@ const CategoriesList = ({ onSelectCategory, selected = "برجر" }: Props) => {
         breakpoints: breakpoints
 
     });
-
+    // s
     return (
         <div>
             <div className="space-y-2">
